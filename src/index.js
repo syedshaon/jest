@@ -4,9 +4,9 @@
 //  TO DISABLE DONT IMPORT * AS bOOTSTRAP ALSO DON'T IMPORT BOOTSTRAP IN STYLE.SCSS FILE
 /* import "bootstrap"; */
 
-import "./style.scss";
+// import "./style.scss";
 // Import all of Bootstrap's JS
-import * as bootstrap from "bootstrap";
+// import * as bootstrap from "bootstrap";
 // or, specify which plugins you need:
 // import { Tooltip, Toast, Popover } from 'bootstrap'
 
@@ -30,3 +30,16 @@ el.addEventListener("click", () => {
 
 /*  "css.styleSheets": ["https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css", "/style.css", "style.css", "style.scss", "${fileBasenameNoExtension}.css"],
   "css.styleSheets": ["https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css", "/style.css", "style.css", "style.scss", "${fileBasenameNoExtension}.css"] */
+
+import { Calculator, Cesar, analyzeArray } from "../practice";
+
+const result = {
+  average: 4,
+  min: 1,
+  max: 8,
+  length: 6,
+};
+
+const arr = [1, 8, 3, 4, 2, 6];
+
+console.log(analyzeArray(arr));
